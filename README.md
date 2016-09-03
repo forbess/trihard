@@ -1,0 +1,2 @@
+# trihard
+Random practice projects
