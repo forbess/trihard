@@ -1,2 +1,2 @@
 # trihard
-Random practice projects
+Random coding projects.
