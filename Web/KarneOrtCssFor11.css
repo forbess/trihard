@@ -1,0 +1,43 @@
+body {
+background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+
+}
+
+.kutular {
+	width:900px;
+	margin:auto;
+}
+.kutucuk {
+	width:200px;
+	margin:8px;
+	float:left;
+	border-style:solid;
+	border-color:#B8B8B8;
+	border-radius:5px;
+	text-align:center;
+	color:#FFFFFF;
+	font-family:"Windows Command Prompt";
+	font-size:16px;
+	
+}
+
+input[type=button] {
+	font-family:"Windows Command Prompt";
+	font-size:26px;
+	border-radius:5px;
+}
+
+input[type=number] {
+	border-radius:5px;
+	font-family:"Windows Command Prompt";
+	font-size:18px;
+	border-color:#FFFFFF;
+}
