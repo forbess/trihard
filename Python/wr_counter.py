@@ -70,4 +70,9 @@ resetButton.grid(row=5, column=1)
 exitButton.grid(row=5, column=2)
 # saveButton.grid(row=5, column=1)
 
+<<<<<<< HEAD
 root.mainloop()
+=======
+root.mainloop()
+
+>>>>>>> 72043c0180206c288c4b1eff21e181471b53ffef
