@@ -1,4 +1,4 @@
-from tkinter import *
+﻿from tkinter import *
 
 root = Tk()
 root.title('Winrate Counter')
@@ -71,5 +71,3 @@ exitButton.grid(row=5, column=2)
 # saveButton.grid(row=5, column=1)
 
 root.mainloop()
-#{scrpn44+self.qweqeqeweqewq}
-#102GB
