@@ -39,14 +39,14 @@ def reset_value(*args):
 def save_value(*args):
     pass
 
-def quit():
+def quitProgram():
     root.quit()
 
 #Buttons
 winrateButton = Button(root, text=" Won\t↑", command = increase_value, bg='green', fg='white')
 loseButton = Button(root, text=" Lost\t↓", command=decrease_value ,bg='red', fg='white')
 resetButton = Button(root, text="Reset\tØ", command=reset_value, bg='blue', fg='white')
-exitButton = Button(root, text="Quit\t✗", command=quit, bg='firebrick', fg='white')
+exitButton = Button(root, text="Quit\t✗", command=quitProgram, bg='firebrick', fg='white')
 # saveButton = Button(root, text="Save ✓ ", command=save_value, bg='purple', fg='white')
 
 #Labels
@@ -70,9 +70,4 @@ resetButton.grid(row=5, column=1)
 exitButton.grid(row=5, column=2)
 # saveButton.grid(row=5, column=1)
 
-<<<<<<< HEAD
 root.mainloop()
-=======
-root.mainloop()
-
->>>>>>> 72043c0180206c288c4b1eff21e181471b53ffef
