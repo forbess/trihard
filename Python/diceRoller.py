@@ -13,6 +13,7 @@ class DiceRolling:
 						self.randNumber = random.randint(1,6)
 						print("STATUS: You rolled '{0}'".format(self.randNumber))
 						input(" --> Press enter to re-roll.\n")
+
 				except:
 					print("\nERROR.RESTARTING...\n")
 
