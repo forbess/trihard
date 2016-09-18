@@ -14,7 +14,7 @@ class HangMan:
 
     def ask(self):
         self.x = 1
-        print("DevCopy: '{}'".format(self.randomLetter))
+        #print("DevCopy: '{}'".format(self.randomLetter))
         self.userAnswer = input("Guess the first letter of random chosen word please: ")
         if (self.userAnswer == self.randomLetter[0]):
             print("--> STATUS: You found it! First letter was '{}'. Moving...".format(self.randomLetter[0]))
@@ -178,6 +178,11 @@ class HangMan:
             print("I am sorry, you couldn't guess it. Moving to third letter...")
             print("-" * 50)
             self.askThird()          
+
+class Exit:
+    def exit(self):
+        raise SystemExit
+        #goodbye.
 
 HangManGame = HangMan()
 
